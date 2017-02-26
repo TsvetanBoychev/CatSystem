@@ -10,13 +10,13 @@ namespace CatSystem
 {
    public class Owner
     {
-        private string firstName; // Това са ти полетата - идиот!
+        private string firstName; 
         private string lastName;
 
         private List<Cat> cats;
        
 
-        public Owner(string firstName, string lastName )//Това ти е конструктура - идиот!
+        public Owner(string firstName, string lastName )
         {
             this.firstName = FirstName;
             this.lastName = LastName;
@@ -24,7 +24,7 @@ namespace CatSystem
             this.cats = new List<Cat>();
         }
 
-        public string FirstName //Това са ти пропъртитата - идиот!
+        public string FirstName 
         {
             get
             {
@@ -75,7 +75,7 @@ namespace CatSystem
 
             this.cats.Add(cat);
             cat.Name = name;
-            cat.Owner = this; //Сетваме кой е собственика на котката
+            cat.Owner = this; 
         }
 
     }
