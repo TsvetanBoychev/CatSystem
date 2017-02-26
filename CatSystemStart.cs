@@ -23,7 +23,7 @@ namespace CatSystem
 
 
 
-            //peshoOwner.IncreaseAge(); //Eми, така, пич, се викат методи от класовете
+            //peshoOwner.IncreaseAge(); 
             //Console.WriteLine(peshoOwner.Age);
 
 
